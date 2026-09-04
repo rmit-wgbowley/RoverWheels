@@ -2,6 +2,9 @@
   "version": "0.2",
   "language": "en-US",
   "words": [
-    "OENG1250"
+    "OENG1250",
+    "picounits",
+    "Milli",
+    "nullset"
   ]
 }

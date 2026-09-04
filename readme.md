@@ -36,8 +36,9 @@ See [01_detailed_design](./01_detailed_design) for analysis details.
 
 ### Documentation
 
-Design notes, validation results, design iterations, and implementation 
-decisions are documented in the repository [issues](https://github.com/rmit-wgbowley/RoverWheels/issues).
+Design notes and implementation details can be found in the repository [issues](https://github.com/rmit-wgbowley/RoverWheels/issues).
+
+#### Tags
 
 ```
 Project Progress:

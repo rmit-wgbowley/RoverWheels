@@ -29,7 +29,25 @@ See [01_detailed_design](./01_detailed_design) for analysis details.
 
 ### L2 - Parametric CAD
 
-> *(Dependency). The CAD implementation is dependent on the detailed design being finished.*
+### Preliminary Design
+
+This design serves as a block design showing the different components within the wheel assembly specifically the interface plate & wheel structure.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./03_media/preliminary_design/wheel_interface.png" alt="Interface" style="max-width:400px; height:auto;"></td>
+      <td><img src="./03_media/preliminary_design/wheel_outer_face.png" alt="Outer face" style="max-width:400px; height:auto;"></td>
+    </tr>
+</table>
+  <p><em>Screenshots of preliminary design in solidworks 2026</em></p>
+</div>
+
+
+#### Detailed Design
+
+> *(Dependency). The detailed CAD implementation is dependent on the preliminary design being finished.*
+
 ---
 
 ### Documentation

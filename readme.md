@@ -2,17 +2,22 @@
 Colors:
 FFFFFF - Pure white
 e01e37 - Bold crimson-red 
+
+Hi,
+I don't even know why I made this a repo.
+Like, tbh it's just meh. Though who knows,
+I'll archive it straight off the bat.
+
+- William Bowley, 22nd of September 2026
 -->
 
 ### Overview
 
-![Status](https://img.shields.io/badge/Status-WIP-FFFFFF?style=flat-square)
-![Subsystem](https://img.shields.io/badge/Subsystem-Drivetrain-e01e37?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Wheels-FFFFFF?style=flat-square)
+A rover contains many subsystems, drivetrain, suspension, etc. But because the domain knowledge for each is so large, 
+for the majority of engineers it's unreasonable to attack it as a whole. Hence, the subsystem decomposition.
 
-A rover contains many subsystems, drivetrain, suspension, etc. But because the domain knowledge for each is so large, for the majority of engineers it's unreasonable to attack it as a whole. Hence, the subsystem decomposition.
-
-This repository therefore contains the design, analysis, and conceptual implementation of the wheels subsystem within a sandbox moon-to-Mars rover project for `OENG1250` between the 4th of September and 13th of November.
+This repository therefore contains the design, analysis, and conceptual implementation of the wheels subsystem 
+within a sandbox moon-to-Mars rover project for `OENG1250` between the 4th of September and 22nd of September.
 
 ---
 
@@ -46,7 +51,17 @@ This design serves as a block design showing the different components within the
 
 #### Detailed Design
 
-> *(Dependency). The detailed CAD implementation is dependent on the preliminary design being finished.*
+This design serves as the final design of the rover wheel. The outer diameter was increased to allow for a better hub design, with the hub having a diameter of `90 mm` and the wheel having a diameter of `100 mm`, instead of the preliminary design diameter of `85 mm`. The parts are all 6061 aluminium, and the total mass of the assembly with stainless bolts is `~118.50 g`. The two bolt sizes used were M3 x 6 mm and M3 x 10 mm, with 5 and 3 of them used respectively.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./03_media/detailed_design/wheel_interface.png" alt="Interface" style="max-width:400px; height:auto;"></td>
+      <td><img src="./03_media/detailed_design/wheel_outer_face.png" alt="Outer face" style="max-width:400px; height:auto;"></td>
+    </tr>
+</table>
+  <p><em>Screenshots of the final design in solidworks 2026</em></p>
+</div>
 
 ---
 

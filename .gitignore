@@ -1,4 +1,6 @@
 # .gitignore
+*.txt
 
 # Excluded Folders
 /0x_rmit_course_work
+
